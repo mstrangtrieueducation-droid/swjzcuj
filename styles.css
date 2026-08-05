@@ -347,7 +347,9 @@ h1 {
   height: auto;
   aspect-ratio: 3 / 2;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: #eef4f3;
   transition: opacity 130ms ease;
 }
 
